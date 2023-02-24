@@ -6,7 +6,6 @@ do {
 } while (
    number == 0 || tab == "" || last == ""
 );
-  number == isNaN(number)? 5 :  number;
 var res = '';
 for (let i = 0; i < number; i++){
     res = res + tab;
