@@ -1,6 +1,6 @@
 do {
     var number = +prompt('Введите число: ')
-    number == isNaN(number)? 5: number;
+    number = isNaN(number)? 5: number;
     var tab = prompt('Введите символ отступов: ')
     var last = prompt('Введите конечный символ: ')
 } while (
